@@ -1,0 +1,121 @@
+body {
+  font-family: Arial;
+  padding: 0;
+  color: #222;
+  background: linear-gradient(to bottom, #ffffff, #f0d88c);
+  height: 100vh;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  border: 3px solid #e1b864;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-bottom: 3px solid #e1b864;  
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #de982f;
+  text-shadow: 1px 1px 2px #000; 
+}
+
+.header-text p {
+  margin: 2px 0 0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/* Left sidebar */
+.left {
+  flex: 1.5;
+  padding-right: 20px;
+}
+
+.left h2 {
+  color: #222;
+  margin: 5px 0 0 0;
+}
+
+.left #Looking {
+  margin-top: 15px;
+}
+
+.left p {
+  margin: 5px 0px 10px;
+}
+
+.left ul {
+  margin: 0px;
+  padding: 0 0 0 16px;
+}
+
+ul li:nth-child(1) a { color: rgb(150, 142, 142); font-weight: 800; }    
+ul li:nth-child(2) a { color: rgb(75, 72, 66); font-weight: 800; } 
+ul li:nth-child(3) a { color: green;  font-weight: 800;}  
+ul li:nth-child(4) a { color: blue; font-weight: 800; }  
+ul li:nth-child(5) a { color: rgb(89, 39, 89); font-weight: 800; } 
+ul li:nth-child(6) a { color: rgb(119, 41, 41); font-weight: 800;}
+
+.left #contact{
+  font-style: italic;
+  font-family: Times;
+}
+
+/* Right sidebar */
+.right {
+  flex: 1;
+  background-color: #fff3d4;
+  padding: 10px 15px;
+  height: fit-content;
+}
+
+.right h3 {
+  font-weight: bold;
+  color: #000;
+  padding: 5px 0px;
+  margin-top: 0;
+}
+
+.right h4{
+  color: rgb(160, 9, 9);
+  margin: 0 0 8px 0;
+}
+
+.right p{
+  margin: 0 0 16px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  border-top: 3px solid #e1b864;
+  text-align: right;
+  padding: 8px 20px;
+  font-size: 0.9em;
+  color: black;
+}

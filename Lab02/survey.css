@@ -1,0 +1,56 @@
+html{
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial;
+  background-color: #ffffff;
+}
+
+.survey {
+  border: 2px solid #1770ce;
+  max-width: 600px;
+  background-color: #fff;
+}
+
+.logo {
+  width: 90px;
+}
+
+.survey-title {
+  color: #008080;
+  font-weight: bold;
+}
+
+legend {
+  color: #008080;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  border: 1px solid #888;
+  font-size: 14px;
+}
+
+.form-check-label {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.btn-outline-primary {
+  color: #008080;
+  border-color: #008080;
+}
+
+.btn-outline-primary:hover {
+  background-color: #008080;
+  color: white;
+}
